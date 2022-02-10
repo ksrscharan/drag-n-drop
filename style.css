@@ -17,14 +17,15 @@ h2{
     align-items: center;
 }
 .container .list{
-    background-color: rgb(39, 134, 223);
+    background-color: rgba(0, 0, 0, 0.1);
     margin: 10px;
     height: 100%;
     width: 30%;
     border-radius: 1em;
 }
 .list .list-item{
-    background-color: white;
+    background-color: rgba(0,0,0,0.6);
+    color: rgba(255,255,255,1);
     margin: 10px;
     border-radius: 1em;
     overflow: hidden;

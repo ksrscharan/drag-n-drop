@@ -19,16 +19,17 @@ for(let i=0; i<listItems.length;i++){
         const list = lists[j]
         list.addEventListener('dragover', (e)=>{
             e.preventDefault()
-            list.style.backgroundColor = 'rgba(39, 134, 223, 0.5)'
+            list.style.backgroundColor = 'rgba(0,0,0, 0.2)'
         })
         list.addEventListener('dragenter', (e)=>{
             e.preventDefault()
         })
         list.addEventListener('dragleave', ()=>{
-            list.style.backgroundColor = 'rgba(39, 134, 223, 1)'
+            list.style.backgroundColor = 'rgba(0,0,0, 0.1)'
         })
         list.addEventListener('drop', ()=>{
             list.append(draggedItem)
+            list.style.backgroundColor = 'rgba(0,0,0, 0.1)'
         })
     }
 }  
